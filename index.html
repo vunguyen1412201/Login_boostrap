@@ -1,34 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="style.css">
-<title>Title</title>
-</head>
-<body class="signin-body">
-    
-        <div class="container signin-container ">
-            <div class="row">
-                <div class="col"></div>
-                <div class="col-8">
-                    <div class="card signin-card">
-                        <div class="card-body">
-                            <img src="../img/apple.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Title</title>
+  </head>
+  <body class="signin-body">
+    <div class="container signin-container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-md-8">
+          <div class="card signin-card">
+            <div class="card-body">
+              <img src="../img/apple.png" alt="" class="img-fluid signin-img" />
+              <form class="signin-form">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="emailInput"
+                    placeholder="Email"
+                  />
                 </div>
-                <div class="col"></div>
-            </div>
-        </div>
+                <div class="form-group">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="passwordInput"
+                    placeholder="Password"
+                  />
+                </div>
 
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-</body>
+                <button type="button" class="btn btn-primary signin-btn btn-lg">
+                  Sign in
+                </button>
+                <div class="form-check">
+                  <label class="form-check-label" for="exampleCheck1">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    Remember me
+                    <a href="">Need Help?</a>
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+          <a href="" class="creater-new-acc">Create New Account</a>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
